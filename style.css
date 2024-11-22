@@ -68,3 +68,21 @@ footer {
   bottom: 30px;
   font-family: "Edu AU VIC WA NT Pre", cursive;
 }
+
+/* RESPONSIVITY */
+
+@media (max-width: 600px) {
+  body {
+    /* background-color: lightblue; */
+  }
+  .container {
+    display: grid;
+  }
+  footer {
+    position: static;
+    padding: 30px;
+  }
+  .counter {
+    margin-top: 50px;
+  }
+}
